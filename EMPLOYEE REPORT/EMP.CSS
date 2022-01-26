@@ -1,0 +1,45 @@
+body{
+  font-size: 11px;
+}
+.com-logo{
+    display: flex;
+}
+
+.basic-info{
+    display: flex;
+    margin: auto;
+    width: 65%;
+}
+table{
+    border-collapse: collapse;
+}
+.second-layer{
+    margin-left:250px;
+}
+
+
+.contract-info{
+    display: flex;
+}
+
+.con-second-layer{
+    margin-left:250px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+
+
+  @media (max-width: 800px) {
+    .emp-inf {
+      flex-direction: column;
+    }
+  }
+
+  /*
+@media print {
+    .training-info {page-break-after: always;}
+  } */
+
+  @page{
+      size: A4;
+  }
